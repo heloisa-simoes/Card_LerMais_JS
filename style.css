@@ -1,0 +1,59 @@
+    body {
+        background-color: rgba(0, 0, 0, 0.849);
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container_principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        padding: 25px;
+        background-color: #3f3f3f;
+        text-align: justify;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+        position: relative;
+    }
+    
+    .imagem img {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        border-radius: 5px;
+    }
+    
+    .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    p {
+        font-size: 1rem;
+        padding: 1px;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    #resultado {
+        background-color: #3f3f3f;
+    }
+    
+    button {
+        background-color: #1c4adf;
+        border: none;
+        border-radius: none;
+        color: white;
+        padding: 8px;
+        margin: 10px;
+    }
+    
+    h1 {
+        display: inline;
+        text-align: center;
+    }
